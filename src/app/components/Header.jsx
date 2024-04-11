@@ -5,6 +5,7 @@ import logo from '../../../public/miLogo.png'
 import { useState } from 'react';
 import { useMediaQuery } from 'react-responsive';
 import MenuMobile from './MenuMobile';
+import Link from 'next/link'
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -15,8 +16,10 @@ const Header = () => {
   };
 
   return (
-    <nav className={`bg-colorPrincipal flex items-center px-5 justify-between h-20 relative ${isMenuOpen ? 'h-screen overflow-y-hidden' : ''}`}>
-      <Image src={logo} alt='logo Alex' width={100} height={70}/>
+    <nav className={`bg-colorPrincipal bg-opacity-90 backdrop-blur-sm flex items-center px-5 justify-between h-20 fixed w-full  ${isMenuOpen ? 'h-screen overflow-y-hidden' : ''}`}>
+      <a href='/'>
+       <Image src='/miLogo.png' alt='logo Alex' width={100} height={70} className='pointer ml-12'/>
+      </a>
       {menuMobile ? (
         <>
           {isMenuOpen && <MenuMobile />}
@@ -35,24 +38,24 @@ const Header = () => {
       ) : (
         <ul className='flex gap-7 pr-5'>
           <li>
-            <a className={`${ibmPlexMono.className} text-slate-300 inline relative border-b-2 border-solid border-transparent hover:border-celestito transition-border duration-300`} href="#about">
+            <Link className={`${ibmPlexMono.className} text-slate-300 inline relative border-b-2 border-solid border-transparent hover:border-celestito transition-border duration-300`} href="#about">
               About
-            </a>
+            </Link>
           </li>
           <li>
-            <a className={`${ibmPlexMono.className} text-slate-300 inline relative border-b-2 border-solid border-transparent hover:border-celestito transition-border duration-300`}href="#experience">
+            <Link className={`${ibmPlexMono.className} text-slate-300 inline relative border-b-2 border-solid border-transparent hover:border-celestito transition-border duration-300`}href="#experience">
               Experience
-            </a>
+            </Link>
           </li>
           <li>
-            <a className={`${ibmPlexMono.className} text-slate-300 inline relative border-b-2 border-solid border-transparent hover:border-celestito transition-border duration-300`} href="#work">
+            <Link className={`${ibmPlexMono.className} text-slate-300 inline relative border-b-2 border-solid border-transparent hover:border-celestito transition-border duration-300`} href="#work">
               Work
-            </a>
+            </Link>
           </li>
           <li>
-            <a className={`${ibmPlexMono.className} text-slate-300 inline relative border-b-2 border-solid border-transparent hover:border-celestito transition-border duration-300`} href="#contact">
+            <Link className={`${ibmPlexMono.className} text-slate-300 inline relative border-b-2 border-solid border-transparent hover:border-celestito transition-border duration-300`} href="#contact">
               Contact
-            </a>
+            </Link>
           </li>
         </ul>
       )}

@@ -7,8 +7,9 @@ import Link from "next/link"
 const NavbarVertical = () => {
   return (
     <div className="flex md:h-screen flex-col justify-center">
-      <div className="mx-auto md:flex md:items-center mb-10">
+      <div className="mx-auto md:flex md:items-center md:mt-10 mb-5">
         <ul className='flex md:flex-col flex-row gap-7 items-center'>
+          
           <li>
             <Link target="_blank" href="mailto:alexbris21@gmail.com" >
               <BiLogoGmail className="cursor-pointer text-slate-400 text-2xl hover:text-verdecito hover:text-3xl transition-all duration-300" />
