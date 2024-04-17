@@ -1,4 +1,4 @@
-// MouseLight.js
+
 
 import React, { useEffect, useState } from 'react';
 
@@ -22,17 +22,16 @@ const MouseLight = () => {
       position: 'fixed',
       width: '120px',
       height: '120px',
-      backgroundColor: 'transparent', // Cambiar el color aquí
+      backgroundColor: 'transparent',
       borderRadius: '50%',
       pointerEvents: 'none',
       zIndex: '9999',
       top: `${mousePosition.y - 50}px`,
       left: `${mousePosition.x - 50}px`,
-      boxShadow: '0 0 200px 40px #193968', // Agregar un desenfoque gaussiano
-      filter: 'blur(50px)', // Aplicar un desenfoque gaussiano al círculo
+      boxShadow: '0 0 200px 40px #193968', 
+      filter: 'blur(50px)', 
     }}
   />
-  
   );
 };
 

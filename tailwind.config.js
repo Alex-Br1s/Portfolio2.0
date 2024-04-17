@@ -15,13 +15,19 @@ module.exports = {
       colors: {
         colorPrincipal: '#0a192f',
         celestito: '#8DCDEE',
-        verdecito: '#4cc2a6'
+        verdecito: '#4cc2a6',
+        hoverProject: '#162032'
       },
       spacing: {
-        al: '900px'
+        al: '900px',
+        450: '450px'
       },
       height: {
-        'h-image': '300px', // Ejemplo de altura personalizada: 24rem
+        'h-image': '300px', 
+        
+      },
+      screens: {
+        'ex': '450px'
       }
     },
   },

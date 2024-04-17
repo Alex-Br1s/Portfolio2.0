@@ -4,7 +4,7 @@ import "./globals.css";
 import Header from "./components/Header";
 import { useMediaQuery } from "react-responsive";
 import NavbarVertical from "./components/NavbarVertical";
-import MouseLight from "./components/MouseLight";
+import MouseLight from "./ui/MouseLight";
 
 const inter = Inter({ subsets: ["latin"] });
 

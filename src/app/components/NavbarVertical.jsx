@@ -6,7 +6,7 @@ import Link from "next/link"
 
 const NavbarVertical = () => {
   return (
-    <div className="flex md:h-screen flex-col justify-center">
+    <div className="flex md:h-screen mt-10 flex-col justify-center">
       <div className="mx-auto md:flex md:items-center md:mt-10 mb-5">
         <ul className='flex md:flex-col flex-row gap-7 items-center'>
           
