@@ -18,12 +18,11 @@ const Header = () => {
   return (
     <nav className={`bg-colorPrincipal bg-opacity-90 backdrop-blur-sm flex items-center px-5 justify-between h-20 fixed w-full  ${isMenuOpen ? 'h-screen overflow-y-hidden' : ''}`}>
       <Link href='/'>
-       <Image src='/miLogo.png' alt='logo Alex' width={100} height={70} className='pointer md:ml-12 -ml-4 '/>
+       <Image src='/miLogo.png' alt='logo Alex' width={100} height={70} className='pointer md:ml-12 -ml-4' />
       </Link>
       {menuMobile ? (
         <>
-          {isMenuOpen && <MenuMobile isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />}
-          <div>
+          {isMenuOpen && <MenuMobile isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />}       
           <button onClick={toggleMenu} className="text-white focus:outline-none z-50 " aria-expanded={isMenuOpen ? "true" : "false"}>
             <div className={`h-[3px] w-7 bg-black dark:bg-white rounded-full mb-1.5 transform transition-transform duration-500 
               ${isMenuOpen ? 'rotate-45 translate-y-[.58rem] translate-x-[.5rem]' : ''}`
@@ -35,7 +34,6 @@ const Header = () => {
               ${isMenuOpen ? '-rotate-45 -translate-y-[.55rem] translate-x-[.5rem]' : ''}`
             }></div>
           </button>
-            </div>
         </>
       ) : (
         <ul className='flex gap-7 pr-5'>

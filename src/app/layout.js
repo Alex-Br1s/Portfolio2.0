@@ -13,6 +13,9 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en">
+      <head>
+      <link rel="icon" href="/miLogo.jpg"/>
+      </head>
       <body className={inter.className}>
         <div id="mouse-light">
 

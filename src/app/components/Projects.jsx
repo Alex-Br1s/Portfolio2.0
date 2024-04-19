@@ -5,13 +5,16 @@ import { SiNestjs } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
 import Image from "next/image";
 import { ibmPlexMono } from "../ui/fonts";
+import {useMediaQuery} from "react-responsive";
 
 const Projects = () => {
-  return (
-    
+
+  const screenMobile = useMediaQuery({ maxWidth: 550 });
+
+  return (  
     <section id="work" className="ex:h-screen h-full text-slate-300 flex justify-center items-center flex-col gap-5">
       <h1 className={`${ibmPlexMono.className} text-2xl pb-4`}>Algunos proyectos que desarrolle</h1>
-      <div className="flex flex-col lg:flex-row gap-5 ex:w-full w-80 md:w-1/2 lg:min-h-44 p-3 rounded-md hover:bg-slate-800/50 hover:shadow-md border-slate-600 hover:border-t">
+      <div className={`flex flex-col lg:flex-row gap-5 ex:w-full w-80 md:w-1/2 lg:min-h-44 p-3 rounded-md hover:bg-slate-800/50 hover:shadow-md border-slate-600 hover:border-t ${screenMobile ? 'bg-slate-800/50 shadow-md border-slate-600 border-t' : ''}`}>
         <div className="w-96 h-20">
           <Image
             className="lg:h-full lg:w-full rounded-md"
@@ -40,7 +43,7 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="flex flex-col lg:flex-row gap-5 ex:w-full w-80 md:w-1/2 lg:min-h-44 p-3 rounded-md hover:bg-slate-800/50 hover:shadow-md border-slate-600 hover:border-t">
+      <div className={`flex flex-col lg:flex-row gap-5 ex:w-full w-80 md:w-1/2 lg:min-h-44 p-3 rounded-md hover:bg-slate-800/50 hover:shadow-md border-slate-600 hover:border-t ${screenMobile ? 'bg-slate-800/50 shadow-md border-slate-600 border-t' : ''}`}>
         <div className="w-96 h-20">
           <Image
             className="lg:h-full lg:w-full rounded-md"
