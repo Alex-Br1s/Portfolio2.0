@@ -12,25 +12,25 @@ const NavbarVertical = () => {
           
           <li>
             <Link target="_blank" href="mailto:alexbris21@gmail.com" >
-              <BiLogoGmail className="cursor-pointer text-slate-400 text-2xl hover:text-verdecito hover:text-3xl transition-all duration-300" />
+              <BiLogoGmail className="cursor-pointer text-slate-400 text-2xl hover:text-celestito hover:text-3xl transition-all duration-300" />
             </Link>
           </li>
 
           <li>
             <Link target="_blank" href='https://www.instagram.com/alexx.developer/'>
-              <FaInstagram className="cursor-pointer text-slate-400 text-2xl hover:text-verdecito hover:text-3xl transition-all duration-300"/>
+              <FaInstagram className="cursor-pointer text-slate-400 text-2xl hover:text-celestito hover:text-3xl transition-all duration-300"/>
             </Link>
           </li>
 
           <li>
             <Link target="_blank" href='https://www.linkedin.com/in/alexander-emanuel-bris-313655266/'>
-              <FiLinkedin className="cursor-pointer text-slate-400 text-2xl hover:text-verdecito hover:text-3xl transition-all duration-300" />
+              <FiLinkedin className="cursor-pointer text-slate-400 text-2xl hover:text-celestito hover:text-3xl transition-all duration-300" />
             </Link>
           </li>
 
           <li>
             <Link target="_blank" href='https://github.com/Alex-Br1s'>
-              <LuGithub className="cursor-pointer text-slate-400 text-2xl hover:text-verdecito hover:text-3xl transition-all duration-300"/>
+              <LuGithub className="cursor-pointer text-slate-400 text-2xl hover:text-celestito hover:text-3xl transition-all duration-300"/>
             </Link>
           </li>
         </ul>

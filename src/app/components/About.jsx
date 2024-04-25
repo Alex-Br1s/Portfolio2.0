@@ -23,18 +23,10 @@ const About = () => {
         </h1>
         <br />
         <p className="text-base text-slate-400 w-full md:w-4/6/5">
-          Hola mi nombre es Alexander y disfruto desarrollar soluciones, Empecé
-          mi trayectoria como programador a hace dos años, cuando pensando en
-          qué estudiar, me adentré en este maravilloso mundo. Luego, me inscribí
-          en un Bootcamp, el cual me proporcionó todas las herramientas
-          necesarias para convertirme en un desarrollador web.
+        Hola, soy Alexander, un desarrollador web que le encanta programar. Comencé mi carrera hace dos años, cuando descubrí mi interés por la programación. Me gradué de un Bootcamp que me proporcionó las habilidades necesarias para convertirme en un desarrollador web.
+        trabaje en una startup donde desarrolle soluciones personalizadas para los clientes. Esta experiencia me ha permitido adquirir nuevas habilidades en tecnologías y una valiosa experiencia laboral.
         </p>
-        <p className="text-base text-slate-400 w-full md:w-4/6/5">
-          A dia de hoy trabajo en una startUp desarrollando las necesidades de
-          los clientes, gracias a ello pude adquirir experiencia laboral y
-          aprender nuevas tecnologias
-        </p>
-        <p className={`${ibmPlexMono.className} text-base text-celestito`}>
+        <p className={`${ibmPlexMono.className} text-base text-celestito pt-2`}>
           Algunas tecnologias que usé ultimamente
         </p>
         <br />
