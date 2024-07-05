@@ -3,12 +3,16 @@ import { FiLinkedin } from "react-icons/fi";
 import { FaInstagram } from "react-icons/fa6";
 import { ibmPlexMono } from "../ui/fonts";
 import Link from "next/link";
+import {useMediaQuery} from "react-responsive";
+
 
 const Contact = () => {
 
+  const screenMobile = useMediaQuery({ maxWidth: 550 });
+
   return (
     <section id="contact" className="h-screen flex justify-center items-center flex-col ">
-    <div className="w-full md:w-96 h-1/2 gap-10 hover:border-t border-slate-600 hover:shadow-md hover:rounded-md hover:bg-slate-800/50 flex flex-col items-center justify-center">
+    <div className={`w-full md:w-96 h-1/2 gap-10 hover:border-t border-slate-600 hover:shadow-md hover:rounded-md hover:bg-slate-800/50 flex flex-col items-center justify-center ${screenMobile ? 'bg-slate-800/50 border-slate-600 border-t shadow-md rounded-md' : ''} `}>
       <h1 className={`text-4xl text-slate-400 ${ibmPlexMono.className}`}>Contáctame!</h1>
       <div className="flex flex-col">
       <ul>
