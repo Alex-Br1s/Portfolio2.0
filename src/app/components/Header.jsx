@@ -24,13 +24,13 @@ const Header = () => {
         <>
           {isMenuOpen && <MenuMobile isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />}       
           <button onClick={toggleMenu} className="text-white focus:outline-none z-50 " aria-expanded={isMenuOpen ? "true" : "false"}>
-            <div className={`h-[3px] w-7 bg-black dark:bg-white rounded-full mb-1.5 transform transition-transform duration-500 
+            <div className={`h-[3px] w-7  bg-white rounded-full mb-1.5 transform transition-transform duration-500 
               ${isMenuOpen ? 'rotate-45 translate-y-[.58rem] translate-x-[.5rem]' : ''}`
             }></div>
-            <div className={`h-[3px] w-7 bg-black dark:bg-white rounded-full mb-1.5 transform transition-transform duration-500 
+            <div className={`h-[3px] w-7  bg-white rounded-full mb-1.5 transform transition-transform duration-500 
               ${isMenuOpen ? 'opacity-0' : ''}`
             }></div>
-            <div className={`h-[3px] w-7 bg-black dark:bg-white rounded-full transform transition-transform duration-500 
+            <div className={`h-[3px] w-7  bg-white rounded-full transform transition-transform duration-500 
               ${isMenuOpen ? '-rotate-45 -translate-y-[.55rem] translate-x-[.5rem]' : ''}`
             }></div>
           </button>
