@@ -1,7 +1,6 @@
 import React from 'react'
 import { ibmPlexMono } from '../ui/fonts'
 import Image from 'next/image'
-import logo from '../../../public/miLogo.png'
 import { useState } from 'react';
 import { useMediaQuery } from 'react-responsive';
 import MenuMobile from './MenuMobile';

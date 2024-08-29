@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/miLogo.jpg" />
+        <link rel="icon" href="/miLogo.png" />
         {/* Google Tag Manager */}
         <script
           dangerouslySetInnerHTML={{
