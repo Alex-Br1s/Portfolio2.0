@@ -67,44 +67,6 @@ const Projects = () => {
             </div>
           </div>
         </div>
-
-        <div
-          className={`flex flex-col lg:flex-row gap-2 w-full min-h-36 p-2 rounded-md hover:bg-slate-800/50 hover:shadow-md border-slate-600 hover:border-t ${
-            screenMobile ? "bg-slate-800/50 shadow-md border-slate-600 border-t p-3" : ""
-          }`}
-        >
-          <div className="w-48 h-28 md:pt-2 pt-0">
-            <Image
-              className="h-full rounded-md"
-              width="200"
-              height="150"
-              src="/ecoWise_Darkzz.webp"
-              alt="ecoWise project"
-            />
-          </div>
-          <div className="w-full lg:w-2/3">
-            <h2 className={`${ibmPlexMono.className} text-lg pb-1 sm:pt-2 lg:pt-0`}>
-              ecoWise
-            </h2>
-            <p className="text-sm w-full">
-              Colaboré en un proyecto grupal para desarrollar un ecommerce de productos sustentables.
-            </p>
-            <div className="flex my-2 gap-3 text-xl">
-              <FaReact className="text-sky-700"/>
-              <SiTailwindcss className="text-teal-500"/>
-              <SiExpress className="text-gray-500"/>
-              <SiSequelize className="text-blue-400"/>
-              <BiLogoPostgresql className="text-sky-500"/>
-            </div>
-            <div className="flex gap-2">
-              <a 
-              href="https://github.com/lucas1visa/ecoWise-WebSite"
-              target="_blank"
-              className={`hover:border-t border-b border-slate-400 hover:rounded-md hover:border-slate-400 transition-all duration-700 shadow-2xl ease py-1 px-4 ${screenMobile ? "border-t rounded-md" : ""}`}>{<FaGithub className="text-xl" />}</a>
-            </div>
-          </div>
-        </div>
-
         <div
           className={`flex flex-col lg:flex-row gap-2 w-full min-h-36 p-2 rounded-md hover:bg-slate-800/50 hover:shadow-md border-slate-600 hover:border-t ${
             screenMobile ? "bg-slate-800/50 shadow-md border-slate-600 border-t p-3" : ""
@@ -137,45 +99,6 @@ const Projects = () => {
               target="_blank"
               className={`hover:border-t border-b border-slate-400 hover:rounded-md hover:border-slate-400 transition-all duration-700 shadow-2xl ease py-1 px-4 ${screenMobile ? "border-t rounded-md" : ""}`}>{<FaGithub className="text-xl" />}</a>
               
-            </div>
-          </div>
-        </div>
-        <div
-
-          className={`flex flex-col lg:flex-row gap-2 w-full min-h-36 p-2 rounded-md hover:bg-slate-800/50 hover:shadow-md border-slate-600 hover:border-t ${
-            screenMobile ? "bg-slate-800/50 shadow-md border-slate-600 border-t p-3" : ""
-          }`}
-        >
-          <div className="w-48 h-28 md:pt-2 pt-0">
-            <Image
-              className="h-full rounded-md"
-              width="200"
-              height="150"
-              src="/pi_Pokemon.webp"
-              alt="Pokedex project"
-            />
-          </div>
-          <div className="w-full lg:w-2/3">
-            <h2 className={`${ibmPlexMono.className} text-lg pb-1 sm:pt-2 lg:pt-0`}>
-              Pokedex
-            </h2>
-            <p className="text-sm w-full">
-              Utilizando la api de PokéAPI desarrolle una pokedex 
-            </p>
-            <div className="flex my-2 gap-3 text-xl">
-              <FaReact className="text-sky-700"/>
-              <SiRedux className="text-violet-500"/>
-              <FaCss3Alt className="text-blue-500"/>
-            </div>
-            <div className="flex gap-2">
-              <a 
-              href="https://github.com/Alex-Br1s/PI-Pokemons"
-              target="_blank"
-              className={`hover:border-t border-b border-slate-400 hover:rounded-md hover:border-slate-400 transition-all duration-700 shadow-2xl ease py-1 px-4 ${screenMobile ? "border-t rounded-md" : ""}`}>{<FaGithub className="text-xl" />}</a>
-              <a
-              href="https://pokemonsv1.vercel.app/" 
-              target="_blank"
-              className={`hover:border-t border-b border-slate-400 hover:rounded-md hover:border-slate-400 transition-all duration-700 shadow-2xl ease py-1 px-4 ${screenMobile ? "border-t rounded-md" : ""}`}>{<FaLink className="text-xl"/>}</a>
             </div>
           </div>
         </div>

@@ -38,22 +38,22 @@ const Header = () => {
         <ul className='flex gap-7 pr-5'>
           <li>
             <Link className={`${ibmPlexMono.className} text-slate-300 inline relative border-b-2 border-solid border-transparent hover:border-celestito transition-border duration-300`} href="#about">
-              About
+              Sobre mí
             </Link>
           </li>
           <li>
             <Link className={`${ibmPlexMono.className} text-slate-300 inline relative border-b-2 border-solid border-transparent hover:border-celestito transition-border duration-300`}href="#experience">
-              Experience
+              Experiencia
             </Link>
           </li>
           <li>
             <Link className={`${ibmPlexMono.className} text-slate-300 inline relative border-b-2 border-solid border-transparent hover:border-celestito transition-border duration-300`} href="#work">
-              Work
+              Trabajos
             </Link>
           </li>
           <li>
             <Link className={`${ibmPlexMono.className} text-slate-300 inline relative border-b-2 border-solid border-transparent hover:border-celestito transition-border duration-300`} href="#contact">
-              Contact
+              Contacto
             </Link>
           </li>
         </ul>

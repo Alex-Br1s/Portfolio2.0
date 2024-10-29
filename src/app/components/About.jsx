@@ -11,8 +11,8 @@ const About = () => {
       className="md:h-screen flex h-full justify-evenly items-center flex-col md:flex-row"
     >
       <div className="mx-4 my-4 w-full md:w-1/2">
-        <h1 className="text-4xl text-celestito">
-          About me
+        <h1 className={`${ibmPlexMono.className} text-4xl text-celestito`}>
+          Sobre mí
         </h1>
         <br />
         <p className="text-base text-slate-400 w-full md:w-6/6">
@@ -25,9 +25,8 @@ const About = () => {
         <br />
         <div className='flex flex-wrap gap-2'>
           <p className="text-base text-celestito"><span className='text-verdecito'>▹</span>React</p>
-          <p className="text-base text-celestito"><span className='text-verdecito'>▹</span>Next</p>
           <p className="text-base text-celestito"><span className='text-verdecito'>▹</span>Tailwind</p>
-          <p className="text-base text-celestito"><span className='text-verdecito'>▹</span>Svelte</p>
+          <p className="text-base text-celestito"><span className='text-verdecito'>▹</span>Express</p>
           <p className="text-base text-celestito"><span className='text-verdecito'>▹</span>Typescript</p>
         </div>
       </div>

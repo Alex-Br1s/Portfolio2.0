@@ -23,7 +23,7 @@ const MenuMobile = ({ isMenuOpen, setIsMenuOpen }) => {
     isMenuOpen && (
       <div className="absolute top-0 left-0 w-full h-full flex overflow-hidden justify-center items-center bg-colorPrincipal z-50">
         <ul className="flex flex-col justify-center gap-7 pr-5 text-center overflow-hidden z-50">
-          {['About', 'Experience', 'Work', 'Contact'].map((text) => (
+          {['Sobre mí', 'Experiencia', 'Trabajos', 'Contacto'].map((text) => (
             <li key={text}>
               <Link
                 onClick={handleMenuClose}

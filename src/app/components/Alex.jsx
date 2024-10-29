@@ -9,7 +9,7 @@ const Alex = () => {
   return (
     <main className={`md:h-screen h-screen flex flex-col justify-center ${isSmallScreen ? '' : 'ml-16'}`}>
       <div>
-        <p className={`${ibmPlexMono.className} text-celestito text-xl`}>Hi, my name is</p>
+        <p className={`${ibmPlexMono.className} text-celestito text-xl`}>Hola, mi nombre es</p>
         <h1 className="font-semibold text-slate-300" style={{ fontSize: isSmallScreen ? '11vw' : '6vw' }}>Alexander Bris.</h1>
         <h2 className="font-semibold text-slate-400" style={{ fontSize: isSmallScreen ? '11vw' : '6vw' }}>Full-Stack Developer.</h2>
         <p className="text-slate-400 md:w-2/3 w-full">Soy un desarrollador fullstack con experiencia en la creación de aplicaciones web. Me especializo en integrar tecnologías frontend y backend para ofrecer soluciones óptimas. Actualmente, continúo perfeccionando mis habilidades a través de proyectos que combinan funcionalidad y rendimiento.</p>
